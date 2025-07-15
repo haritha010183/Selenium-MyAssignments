@@ -40,6 +40,8 @@ public class Frames {
 		else {
 			System.out.println("Alert is not handled");
 		}
+		
+		driver.close();
 
 	}
 

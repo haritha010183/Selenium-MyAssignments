@@ -15,6 +15,7 @@ public class Frames {
 		
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.w3schools.com/js/tryit.asp?filename=tryjs_confirm");
+		Thread.sleep(500);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		
@@ -41,7 +42,7 @@ public class Frames {
 			System.out.println("Alert is not handled");
 		}
 		
-		driver.close();
+		//driver.close();
 
 	}
 
